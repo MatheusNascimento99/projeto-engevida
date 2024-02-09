@@ -4,13 +4,13 @@ import style from './style.css'
 const Btn = () => {
     return (
         <div className='btn'>
-            <button>Botao 1</button>
-            <button>Botao 1</button>
-            <button>Botao 1</button>
-            <button>Botao 1</button>
-            <button>Botao 1</button>
-            <button>Botao 1</button>
-            <input type="selection" name="" id="" />
+            <button>Home</button>
+            <button>Serviços</button>
+            <button>Clientes</button>
+            <button>Portifólio</button>
+            <button>Contato</button>
+            <button>Abertura de Chamado</button>
+            <button>More</button>
         </div>
     )
 }

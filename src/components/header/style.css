@@ -6,7 +6,7 @@ body{
 
 .full{
     display: flex;
-    background-color: rgb(172, 240, 217);
+    background-color: #4682B4;
     border: 1px solid red;
     margin: 0px;
     justify-content: space-around;
@@ -19,6 +19,7 @@ body{
     border: 1px solid red;
     max-width: 100%;
     flex-wrap: wrap;
+    padding: 10px 0 10px 0;
 }
 
 .full h1{
@@ -27,14 +28,20 @@ body{
     max-width: 100%;
     flex-wrap: wrap;
     color: transparent;
-    background: -webkit-linear-gradient(#6ac1e6, #064c7e);
+    background: -webkit-linear-gradient(90deg, rgba(50,44,162,1) 47%, rgba(47,47,244,1) 76%, rgba(26,147,171,1) 96%);
     background-clip: text;
     -webkit-background-clip: text;
 }
 
+
 .links{
     max-width: 100%;
     flex-wrap: wrap;
+    border: 2px solid blue;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+
 }
 
 .links ul{
