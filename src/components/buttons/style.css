@@ -1,4 +1,5 @@
-.btn {
+
+.Directions {
     background-color: #4682B4;
     display: flex;
     justify-content: center;
@@ -8,10 +9,10 @@
     padding: 0.8rem;
 }
 
-.btn button {
+.lks {
     width: auto;
     height: auto;
-
+    text-decoration: none;
     font-size: 1.5rem;
     color: aliceblue;
     padding: 10px;
@@ -21,13 +22,12 @@
     font-weight: 700;
 }
 
-.btn button:hover {
+.lks:hover {
     transition: 0.5s;
-    
     color: rgba(50, 44, 162, 1);
     border-top-color: rgba(50, 44, 162, 1); /* Altera a cor da borda no hover */
     border-bottom-color: rgba(50, 44, 162, 1); /* Altera a cor da borda no hover */
-    
+    cursor: pointer;
     transform: scale(1.4);
 }
 
@@ -35,6 +35,7 @@
 
 
 /* 
+
 
 
 rgba(50,44,162,1)

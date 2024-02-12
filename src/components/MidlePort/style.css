@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr_Port{
+    margin: 20px;
+}
+
+.Port_img{
+    background:white;
+    text-align: center;
+
+}
+
+.port_img{
+    margin: 10px 30px 10px 30px;
+}
+
+.Port_img_style{
+    display: inline;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 40px;
+    max-width: 100%;
+    width: 824px;
+    height: auto;
+    padding: 20px 20px 5px 20px;
+}
+
+
