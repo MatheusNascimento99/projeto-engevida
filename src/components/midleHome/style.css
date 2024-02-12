@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.Hr{
+    width: 82rem;
+    height: 2.5px;
+    background-color: white;
+    margin: 10px 5px;
+    max-width: 100%;
+}
+
+.MidleHome{
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,130,180,1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.MidleHome_img{
+    border-radius: 40px;
+    max-width: 100%;
+    width: 824px;
+    height: auto;
+    padding: 20px 20px 5px 20px;
+
+
+}
+
+p{
+    margin: 2rem;
+    width: 60rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+    padding: 10px 20px 10px 20px;
+
+}

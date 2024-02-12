@@ -10,7 +10,7 @@ const Btn = () => {
             <button>Portifólio</button>
             <button>Contato</button>
             <button>Abertura de Chamado</button>
-            <button>More</button>
+            <button>Mais +</button>
         </div>
     )
 }
