@@ -14,14 +14,13 @@
 }
 
 .table {
-    border: 2px dashed rgb(0, 255, 30);
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
     padding-bottom: 2rem;
-
+    margin-top:15px ;
 }
 
 .MidleClient_img {
@@ -36,7 +35,6 @@
 
 
 .left {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +53,6 @@
 }
 
 .center {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +64,6 @@
 }
 
 .right {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;

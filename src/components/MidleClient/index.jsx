@@ -19,31 +19,25 @@ const MidleService = () => {
             <div className='table'>
 
                 <div className="left">
-                <Image className='l_img' src={Client1} alt='Foto Logo' />
-                <Image className='l_img' src={Client2} alt='Foto Logo' />
-                <Image className='l_img' src={Client7} alt='Foto Logo' />
+                    <Image className='l_img' src={Client1} alt='Foto Logo' />
+                    <Image className='l_img' src={Client2} alt='Foto Logo' />
+                    <Image className='l_img' src={Client7} alt='Foto Logo' />
 
                 </div>
-                
+
                 <div className='center'>
-                <Image className='MidleClient_img' src={ImgClient} alt='Foto Logo' />
-                <Image className='c_img' src={Client5} alt='Foto Logo' />
+                    <Image className='MidleClient_img' src={ImgClient} alt='Foto Logo' />
+                    <Image className='c_img' src={Client5} alt='Foto Logo' />
                 </div>
-                
+
 
 
                 <div className="right">
-                <Image className='l_img' src={Client3} alt='Foto Logo' />
-                <Image className='l_img' src={Client4} alt='Foto Logo' />
-                <Image className='l_img' src={Client6} alt='Foto Logo' />
+                    <Image className='l_img' src={Client3} alt='Foto Logo' />
+                    <Image className='l_img' src={Client4} alt='Foto Logo' />
+                    <Image className='l_img' src={Client6} alt='Foto Logo' />
 
                 </div>
-                
-                
-
-                
-                
-
 
 
             </div>
