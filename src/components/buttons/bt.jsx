@@ -7,10 +7,10 @@ const Btn = () => {
         <div className='Directions'>
             <Link className='lks' href="/">Home</Link>
             <Link className='lks' href="/service">Serviços</Link>
-            <Link className='lks' href="/client">Clientes</Link>
+            <Link className='lks' href="/cliente">Clientes</Link>
             <Link className='lks' href="/port">Portifólio</Link>
-            <Link className='lks' href="/">Contato</Link>
-            <Link className='lks' href="/">Abertura de Chamado</Link>
+            <Link className='lks' href="/contato">Contato</Link>
+            <Link className='lks' href="/chamado">Abertura de Chamado</Link>
             <Link className='lks' href="/">Mais +</Link>
         </div>
     )

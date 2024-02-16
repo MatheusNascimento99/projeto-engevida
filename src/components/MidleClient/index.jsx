@@ -10,7 +10,7 @@ import Client6 from '../../img/marks/cl6.webp';
 import Client7 from '../../img/marks/cl7.webp';
 import style from './style.css'
 
-const MidleService = () => {
+const MidleClient = () => {
     return (
         <div className='MidleClient'>
 
@@ -48,4 +48,4 @@ const MidleService = () => {
 }
 
 
-export default MidleService;
+export default MidleClient;

@@ -1,0 +1,15 @@
+.Form_full{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25rem;
+    height: 32rem;
+    max-width: 100%;
+    margin: 3rem 0 5rem 0;
+}
+
+
+.txt_area{
+    height: 25rem;
+}
