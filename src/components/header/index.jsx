@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Logo from '../header/Logo.png'
 import Facebook from '../../img/Facebook.png'
-import Whats from '../../img/Whatsapp.png'
+import Whats from '../../img/marks/Zap.png'
 import Linkedin from '../../img/Linkedin.png'
 import Blogger from '../../img/Blogger.png'
 
