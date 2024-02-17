@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Logo from '../header/Logo.png'
 import Facebook from '../../img/Facebook.png'
-import Instagram from '../../img/Instagram.png'
+import Whats from '../../img/Whatsapp.png'
 import Linkedin from '../../img/Linkedin.png'
 import Blogger from '../../img/Blogger.png'
 
@@ -17,10 +17,10 @@ const Header = () => {
                 <h1>EngeVida - Engenharia para Vida!</h1>
                 <div className='links'>
                     <ul>
-                        <a href=""> <li> <Image className='img_icons' src={Facebook} alt='Foto Logo'/></li></a>
-                        <a href=""> <li> <Image className='img_icons' src={Instagram} alt='Foto Logo'/></li></a>
-                        <a href=""> <li> <Image className='img_icons' src={Linkedin} alt='Foto Logo'/></li></a>
-                        <a href=""> <li> <Image className='img_icons' src={Blogger} alt='Foto Logo'/></li></a>
+                        <a target="_blank" href="https://www.facebook.com/engenhariaparavida/"> <li> <Image className='img_icons' src={Facebook} alt='Foto Logo'/></li></a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?1=pt_BR&phone=5512997232184&text=Gostaria%20de%20um%20or%C3%A7amento!"> <li> <Image className='img_icons' src={Whats} alt='Foto Logo'/></li></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/engevida/"> <li> <Image className='img_icons' src={Linkedin} alt='Foto Logo'/></li></a>
+                        <a target="_blank" href="https://www.engevida.com/blog"> <li> <Image className='img_icons' src={Blogger} alt='Foto Logo'/></li></a>
                         
 
 

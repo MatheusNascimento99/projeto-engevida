@@ -5,7 +5,7 @@ import style from './style.css'
 const Btn = () => {
     return (
         <div className='Directions'>
-            <Link className='lks' href="/">Home</Link>
+            <Link id='Home' className='lks' href="/">Home</Link>
             <Link className='lks' href="/service">Serviços</Link>
             <Link className='lks' href="/cliente">Clientes</Link>
             <Link className='lks' href="/port">Portifólio</Link>
