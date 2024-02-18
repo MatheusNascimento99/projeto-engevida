@@ -21,7 +21,7 @@
     align-items: center;    
 }
 
-.MidleHome_Service_img{
+.MidleService_Service_img{
     border-radius: 40px;
     max-width: 100%;
     width: 824px;
@@ -34,11 +34,41 @@
 .p_service{
     margin: 2rem;
     width: 60rem;
-    font-size: 1.5rem;
-    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
     flex-wrap: wrap;
     max-width: 100%;
+    color: white;
 
-    padding: 10px 20px 10px 20px;
+}
 
+.Service_list {
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.Service_list_item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.Service_list_item:last-child {
+    margin-bottom: 100px;
+}
+.Service_list_item h4{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 400;  
+    width: 60rem;
+    font-family: Raleway;
+}
+
+.icon_img {
+    width: 50px;
+    height: 50px;
+    background: rgb(232, 232, 204);
 }

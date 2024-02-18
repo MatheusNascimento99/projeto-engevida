@@ -1,7 +1,7 @@
 escopo pagem engevida
 
-1 estilizar texto home
-2 estilizar texto Serviços
+
+
 3 responsividade clientes
 4 responsividade portfólio
 5 responsividade e estilo Contato e definir todos os campos
