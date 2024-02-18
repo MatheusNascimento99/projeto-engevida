@@ -1,9 +1,7 @@
 escopo pagem engevida
 
 
-
 3 responsividade clientes
-4 responsividade portfólio
 5 responsividade e estilo Contato e definir todos os campos
 6 criar abertura de chamado igual Contato
 7 criar menu mais e estilizar

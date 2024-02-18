@@ -1,5 +1,6 @@
+@import url('../global.css');
+
 .Form_full{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -7,9 +8,73 @@
     height: 32rem;
     max-width: 100%;
     margin: 3rem 0 5rem 0;
+    padding: 0px 10px 0px 10px;
 }
 
+input, textarea{
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(204, 204, 204);
+    font-size: 1.2rem;
+}
+
+textarea::placeholder, input::placeholder{
+    color: black;
+}
+
+
+
+
+.Form_full {
+    font-family: Nova Square;
+    font-size: 2rem;
+    color: white;
+    
+}
 
 .txt_area{
     height: 25rem;
 }
+
+.btn{
+    align-self: center;
+    max-width: fit-content;
+    font-size: 1.3rem;
+    padding: 4px;
+    font-family: Nova Square;
+    font-weight: bolder;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:active{
+    position: relative;
+    top: 5px;
+}
+
+
+/* DIV APÓS A MENSAGEM SER ENVIADA */
+
+.msn_send{
+    text-align: center;
+    max-width: fit-content;
+    font-size: 1.5rem;
+    padding: 4px;
+    font-family: Nova Square;
+    font-weight: bolder;
+    background: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+    .msn_send{
+    margin-bottom: 20rem;
+
+    }
+
+}
+    

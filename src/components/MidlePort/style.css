@@ -1,39 +1,36 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+@import url('../../global.css');
 
-.line{
+
+.MidlePort{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.hr_Port{
-    margin: 20px;
+.Port_img_div {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 900px;
 }
 
-.Port_img{
-    background:white;
+.card{
     text-align: center;
+    margin: 5px;
+}
 
+.card h3{
+    color: red;
 }
 
 .port_img{
-    margin: 10px 30px 10px 30px;
-}
-
-.Port_img_style{
-    display: inline;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border-radius: 40px;
     max-width: 100%;
-    width: 824px;
-    height: auto;
-    padding: 20px 20px 5px 20px;
+
 }
 
+@media only screen and (min-width: 992px) {
+  
 
+}
