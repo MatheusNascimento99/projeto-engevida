@@ -11,7 +11,7 @@ const Btn = () => {
             <Link className='lks' href="/port">Portifólio</Link>
             <Link className='lks' href="/contato">Contato</Link>
             <Link className='lks' href="/chamado">Abertura de Chamado</Link>
-            <Link className='lks' href="/">Mais +</Link>
+            <Link id='Mais' className='lks' href="/">Mais +</Link>
         </div>
     )
 }

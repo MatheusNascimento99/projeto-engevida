@@ -29,29 +29,32 @@
 
 }
 
-p {
-    margin: 2rem;
-    width: 60rem;
-    font-size: 1.5rem;
+.paragraph {
+    font-size: 1.3rem;
     text-align: justify;
     flex-wrap: wrap;
     max-width: 100%;
-    padding: 10px 20px 10px 20px;
     font-family: Raleway;
     line-height: 2rem;
+    padding: 0.5rem 0.7rem 0rem 0.7rem;
+    max-width: 820px;
+
 }
 
-p::first-letter {
+.paragraph::first-letter {
     color: red;
     font-weight: bold;
     font-size: 2rem;
-
 }
 
 .Home_list {
     list-style: none;
     display: inline-block;
     margin-top: 15px;
+    padding: 0rem 0.7rem 1rem 0.7rem;
+    max-width: 820px;
+
+
 }
 
 .Home_list_item {
@@ -60,13 +63,36 @@ p::first-letter {
     margin: 10px 0 10px 0;
 }
 
-.Home_list_item h4{
+.Home_list_item h4 {
     margin-left: 1rem;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
 .icon_img {
     width: 50px;
     height: 50px;
     background: rgb(232, 232, 204);
+}
+
+#title{
+    justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+    .Directions {
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .paragraph {
+        font-size: 1.7rem;
+
+    }
+
+    .Home_list {
+        font-size: 1.4rem;
+
+    }
 }

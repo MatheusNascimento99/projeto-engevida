@@ -5,24 +5,27 @@ import Mask from '../../img/icon/Mask.svg';
 import Desc from '../../img/icon/Description.svg';
 import Eng from '../../img/icon/Engineering.svg';
 import Chek from '../../img/icon/Checklist.svg';
-
-
 import style from './style.css';
+
+
 const MidleHome = () => {
     return (
         <div className='MidleHome'>
             <hr className='Hr' />
             <Image className='MidleHome_img' src={ImgHome} alt='Foto Logo' />
-            <p>
-                Nós acreditamos que a tecnologia deve estar sempre voltada para melhorar a vida das pessoas, começando pela saúde.
+            <div>
+                <p className='paragraph'>
+                    Nós acreditamos que a tecnologia deve estar sempre voltada para melhorar a vida das pessoas, começando pela saúde.
 
-                A EngeVida surge para oferecer nova opção de assistência especializada em Engenharia Clínica.
+                    A EngeVida surge para oferecer nova opção de assistência especializada em Engenharia Clínica.
 
-                Possuímos ampla experiência, não apenas em manutenção de equipamentos médicos, mas também na diversificação de soluções em serviços na área clínica.
-
+                    Possuímos ampla experiência, não apenas em manutenção de equipamentos médicos, mas também na diversificação de soluções em serviços na área clínica.
+                </p>
                 <br />
-                Nossa área de atuação é: <br />
                 <ul className='Home_list'>
+                    <li className='Home_list_item'>
+                        <h4 id='title'>Nossa área de atuação é:</h4>
+                    </li>
                     <li className='Home_list_item'>
                         <Image className='icon_img' src={Mask} alt='Foto Logo' />
                         <h4>Engenharia Clínica;</h4>
@@ -41,7 +44,7 @@ const MidleHome = () => {
                     </li>
                 </ul>
 
-            </p>
+            </div>
         </div>
     )
 }

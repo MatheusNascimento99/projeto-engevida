@@ -2,56 +2,56 @@
     background-color: #4682B4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 100%;
     flex-wrap: wrap;
-    gap: 4rem;
-    padding: 0.8rem;
+    padding: 5px 4.7rem 0 4.7rem;
+    align-items: center;
+    gap: 1rem;
 }
+
+
 
 .lks {
     width: auto;
-    height: auto;
     text-decoration: none;
-    font-size:35px;
+    font-size: 1.5rem;
     color: aliceblue;
-    padding: 10px;
-    background-color: transparent;
-    border: 2px solid transparent;
-    /* Defina uma borda transparente */
-    text-align: center;
     font-weight: 700;
+
+
 }
 
-.lks:hover {
-    transition: 0.5s;
+.lks:hover:not(#Mais) {
+    transition: 0.3s;
     color: rgba(50, 44, 162, 1);
-    border-top-color: rgba(50, 44, 162, 1);
-    /* Altera a cor da borda no hover */
-    border-bottom-color: rgba(50, 44, 162, 1);
-    /* Altera a cor da borda no hover */
+    border: 4rem rgba(50, 44, 162, 1);
     cursor: pointer;
-    transform: scale(1.4);
+    transform: scale(1.2);
+
 }
 
+#Mais:hover {
+    transform: rotate(50deg);
+    transition: 1s;
+}
 
-
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) {
     .Directions {
-        display: flex;
         flex-direction: row;
     }
 }
 
-@media only screen and (min-width: 992px) {
+
+@media screen and (min-width: 1150px) {
     .Directions {
-        display: flex;
         flex-direction: row;
+        gap: 2.8em;
+
     }
 
-    .lks{
-    font-size:24px;
+    .lks {
+        font-size: 2rem;
 
     }
 }
