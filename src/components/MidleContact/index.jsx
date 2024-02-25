@@ -5,7 +5,6 @@ import style from './style.css'
 const MidleContact = () => {
     return (
         <div className='MidleService'>
-            <hr className='Hr' />
             <ContactForm />
         </div>
     )

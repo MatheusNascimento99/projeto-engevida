@@ -11,7 +11,6 @@ import style from './style.css';
 const MidleHome = () => {
     return (
         <div className='MidleHome'>
-            <hr className='Hr' />
             <Image className='MidleHome_img' src={ImgHome} alt='Foto Logo' />
             <div>
                 <p className='paragraph'>

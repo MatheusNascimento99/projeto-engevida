@@ -16,7 +16,8 @@ import style from './style.css';
 
 const MidlePort = () => {
     return (
-        <div className='MidlePort'>
+        <>
+            <div className='MidlePort'>
             <div className='Port_img_div'>
                 <div className='card'>
                     <h3>Monitor Multiparâmetros</h3>
@@ -79,6 +80,9 @@ const MidlePort = () => {
                 </div>
             </div>
         </div>
+        
+        </>
+        
     );
 };
 

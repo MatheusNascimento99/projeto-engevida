@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.fullVendas {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.card {
+    max-width: 320px;
+    text-align: center;
+
+}
+
+.MidleVenda {
+    padding: 1rem;
+    padding-left: 3.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #18274A;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+
+.MidleService_Service_img {
+    height: auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+p,
+.p_venda {
+    width: 60rem;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    color: rgb(226, 220, 220);
+    max-width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .MidleService_Service_img {
+        width: 150px;
+        height: 150px;
+    
+    }
+
+    .card {
+        max-width: 100%;
+        text-align: center;
+        
+    }
+
+    .MidleVenda{
+        padding: 10px;
+    }
+}

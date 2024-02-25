@@ -16,7 +16,6 @@ import Work from '../../img/icon/Work.svg';
 const MidleService = () => {
     return (
         <div className='MidleService'>
-            <hr className='Hr' />
             <Image className='MidleService_Service_img' src={ImgHService} alt='Foto Logo' />
             <h2 className='p_service'>
                 Serviços

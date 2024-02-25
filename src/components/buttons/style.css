@@ -1,11 +1,11 @@
 .Directions {
-    background-color: #4682B4;
+    background-color: #18274A;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 100%;
     flex-wrap: wrap;
-    padding: 5px 4.7rem 0 4.7rem;
+    padding: 5px 4.7rem 0rem 4.7rem;
     align-items: center;
     gap: 1rem;
     text-align: center;
@@ -20,22 +20,25 @@
     color: aliceblue;
     font-weight: 700;
 
-
 }
 
 .lks:hover:not(#Mais) {
     transition: 0.3s;
-    color: rgba(50, 44, 162, 1);
-    border: 4rem rgba(50, 44, 162, 1);
+    color: #495A6B;
     cursor: pointer;
     transform: scale(1.2);
 
 }
 
-#Mais:hover {
-    transform: rotate(50deg);
-    transition: 1s;
+
+.Hr{
+    width: 86rem;
+    height: 2.5px;
+    max-width: 100%;
+    background-color: white;
 }
+
+
 
 @media screen and (min-width: 600px) {
     .Directions {
@@ -52,7 +55,7 @@
     }
 
     .lks {
-        font-size: 2rem;
+        font-size: 1.9rem;
 
     }
 }

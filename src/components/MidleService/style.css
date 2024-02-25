@@ -1,29 +1,22 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 
-.Hr{
-    width: 82rem;
-    height: 2.5px;
-    background-color: white;
-    margin: 10px 5px;
-    max-width: 100%;
-}
 
-.MidleService{
-    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,130,180,1) 100%);
+
+.MidleService {
+    background-color: #18274A;
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 10px 20px 10px 20px;
-
+    align-items: center;
+    padding: 0px 20px 10px 20px;
 }
 
-.MidleService_Service_img{
+.MidleService_Service_img {
     border-radius: 40px;
     max-width: 100%;
     width: 824px;
@@ -33,15 +26,14 @@
 
 }
 
-.p_service{
+.p_service {
     margin: 2rem;
     width: 60rem;
     font-size: 2rem;
     text-align: center;
     flex-wrap: wrap;
     max-width: 100%;
-    color: white;
-
+    color: hsl(5deg 84% 63%);    
 }
 
 .Service_list {
@@ -56,16 +48,17 @@
 .Service_list_item {
     display: flex;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 10px
 }
 
 .Service_list_item:last-child {
     margin-bottom: 100px;
 }
-.Service_list_item h4{
+
+.Service_list_item h4 {
     font-size: 1.5rem;
     margin-left: 1rem;
-    font-weight: 400;  
+    font-weight: 400;
     width: 60rem;
     font-family: Raleway;
 }
