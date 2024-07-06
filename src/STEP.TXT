@@ -1,7 +1,0 @@
-escopo pagem engevida
-
-
-
-7 criar menu mais e estilizar SELECTED
-criar páginas do mais, , vendas e artigos?
-8 ver fundo para o botao quando ele estiver na página, verificar como foi feito no desafio da lacrei
