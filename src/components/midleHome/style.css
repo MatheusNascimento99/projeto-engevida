@@ -25,10 +25,10 @@
     font-size: 1.3rem;
     text-align: justify;
     flex-wrap: wrap;
-    max-width: 100%;
     font-family: Raleway;
     line-height: 2rem;
     padding: 0.5rem 0.7rem 0rem 0.7rem;
+    max-width: 820px;
 }
 
 .paragraph::first-letter {
