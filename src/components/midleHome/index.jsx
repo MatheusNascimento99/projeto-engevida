@@ -11,7 +11,7 @@ import style from './style.css';
 const MidleHome = () => {
     return (
         <div className='MidleHome'>
-            <Image className='MidleHome_img' src={ImgHome} alt='Foto Logo' />
+            <Image priority={true} className='MidleHome_img' src={ImgHome} alt='Foto Logo' />
             <div>
                 <p className='paragraph'>
                     Nós acreditamos que a tecnologia deve estar sempre voltada para melhorar a vida das pessoas, começando pela saúde.
