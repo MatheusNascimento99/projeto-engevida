@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image'
-import Logo from '../../img/Logo.JPG'
+import Logo from '../../img/logo.JPG'
 import Facebook from '../../img/Facebook.png'
 import Whats from '../../img/marks/Zap.png'
 import Linkedin from '../../img/Linkedin.png'
